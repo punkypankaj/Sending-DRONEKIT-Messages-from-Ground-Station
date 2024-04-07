@@ -1,1 +1,1 @@
-# Sending-DRONEKIT-Messages-from-Ground-Station
+# Sending DRONEKIT Messages from Ground Station
