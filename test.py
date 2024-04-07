@@ -24,10 +24,12 @@ try:
     # Change mode to ALT_HOLD
     print("Changing mode to STABILIZE.")
     vehicle.mode = VehicleMode("STABILIZE")
+    #mode will be changed once on startup
 
+    
     # Wait for changes in state
     while True:
-        # Print the current state every 2 seconds
+        # Print the current state every 1 seconds
         print_vehicle_state(vehicle)
         time.sleep(1)
 
